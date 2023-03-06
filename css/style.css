@@ -6,7 +6,7 @@
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url(images/bg.png);
+    background-image: url(./images/flowershop.jpg);
     background-position: center;
     background-size: cover;
     padding-right: 3%;
@@ -103,6 +103,7 @@ nav ul li a {
 }
 .content .text h1 span {
     font-size: 50px;
+    color: rgb(214, 20, 85);
 }
 .content .text p {
     font-size: 17px;
@@ -127,12 +128,150 @@ nav ul li a {
     border-radius: 30px;
     box-shadow: 1px 4px 12px rgba(94,28,68,.15);
 }
-.pepsi {
+.flowers{
+    width: 100vw;
+    height: 100vh;
+    background: url(./images/flowershop.jpg)no-repeat;
+    background-position: bottom;
+    background-size: cover;
     display: flex;
-    height: 100%;
-    position: absolute;
-    width: 600px;
-    margin-top: 80px;
-    padding-left: 440px;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flower-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 90px;
+    color: rgb(214, 20, 85);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery figure {
+    margin: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+  
+  }
+  
+  .gallery figcaption {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center
+  }
+  
+  .flowers .info-btn {
+    margin-top: 50px;
+    padding: 5px 10px;
+    background: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+  .flowers .flower-content{
+    margin-top: 50px auto;
+  
+  }
+  .form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #33ffcc1f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+	border:0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute; 
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
 }
