@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Generose Artificial Flower Shop</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./images/flower.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn" id="btn1">Log In</button>
+            <button class="btn" id="btn2">Sign Up</button>
+        </div>
+        <div class="content">
+            <div class="text">
+            <h1>Generose's Artificial, <br> <span>Flower Shop</span></h1>
+            <p> We sells artificial roses and accept events design market</p>
+            <button class="btn3">Order Now</button>
+           </div>
+       </div>
+   </div>
+   <section class="flowers">
+        
+    <div class="flower-content"> 
+        <h2>Artificial Roses we offer are:</h2>       
+        <div class="gallery">
+            <figure>
+              <img src="./images/blue.jpg" alt="Photo 1">
+              <figcaption>Blue Rose </figcaption>
+              <a href="#" class="info-btn">View</a>
+            </figure>
+            <figure>
+              <img src="./images/pink1.jpg" alt="Photo 2">
+              <figcaption>Pink Rose</figcaption>
+              <a href="#" class="info-btn">View</a>
+            </figure>
+            <figure>
+              <img src="./images/green.jpg" alt="Photo 3">
+              <figcaption>Green Rose</figcaption>
+              <a href="#" class="info-btn">View</a>
+            </figure>
+            <figure>
+                <img src="./images/violet.jpg" alt="Photo 3">
+                <figcaption>Violet Rose</figcaption>
+                <a href="#" class="info-btn">View</a>
+              </figure>
+              <figure>
+                <img src="./images/white.jpg" alt="Photo 3">
+                <figcaption>White Rose</figcaption>
+                <a href="#" class="info-btn">View</a>
+              </figure>
+              <figure>
+                <img src="./images/red.jpg" alt="Photo 3">
+                <figcaption>Red Rose</figcaption>
+                <a href="#" class="info-btn">View</a>
+              </figure>
+        </div>
+    </div>
+</section>
+<div class="Main">
+  <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Login</button>
+      <button type="button" class="toggle-btn" onclick="register()">Register</button>
+    </div>
+        <div class="social-icons">
+        <img src="./images/fb.png">
+        <img src="./images/twit.png">
+        <img src="./images/tik.png">
+        </div>
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="text" class="input-field" placeholder="Enter-Password" required>
+          <input type="checkbox" class="check-box"><span>remember password</span>
+          <button type="submit" class="submit-btn">Login In</button>
+        </form>
+
+        <form id="register" class="input-group">
+          <input type="text" class="input-field" placeholder="User Id" required>
+          <input type="email" class="input-field" placeholder="Email Id" required>
+          <input type="text" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" class="check-box"><span>I Agree to The Term & Condition</span>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+  </div>
+</div>
+
+</body>
+</html>
